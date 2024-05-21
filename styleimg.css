@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    display: flexbox;
+}
+
+#prediccion{
+    margin: 150px;
+    display: flexbox;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#imagen{
+    text-align: center;
+    margin: 150px;
+}

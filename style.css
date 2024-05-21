@@ -1,0 +1,69 @@
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+nav{
+    text-align: center;
+    height: 75px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+#boton{
+    width: 30%;
+    margin-top: 10px;
+}
+
+
+
+#elementos{
+    width: 50%;
+    
+}
+
+#canvas{
+    margin: 10px;
+    vertical-align: middle;
+    border: 5px solid rgb(30, 255, 0);
+}
+
+#othercanvas{
+    vertical-align: middle;
+    margin: 10px;
+    position: relative;
+    left: 500px;
+    bottom: 130px;
+
+}
+
+#cambiar-camara{
+    width: 200px;
+    height: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: rgb(25, 103, 210);
+    border-radius: 10px ;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 110px;
+}
+
+#resultado{
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    width: 20%;
+}
+
+#datosConsola {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    max-height: 200px;
+    width: 300px;text-align: center;
+    overflow-y: hidden; 
+    position: absolute;
+    top: 350px;
+    left: 850px;
+  }

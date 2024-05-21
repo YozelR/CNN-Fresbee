@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de imagen</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <link rel="stylesheet" href="styleimg.css">
+</head>
+
+<body>
+    <input id="load" type="file" accept="image/*" onchange="cargarImagen(event)">
+    <img id="imagen" src="" alt="Imagen" width="400" height="400">
+    <div id="prediccion"></div>
+
+    <script src="model.json"></script>
+    <script src="app2.js"></script>
+
+</body>
+
+</html>
